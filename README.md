@@ -1,3 +1,9 @@
+This fork adds the possibility to use custom webpack configs...
+Just create a file named: `webpack.config.development.js` or `webpack.config.production.js`.
+
+
+The mode: `development` or `production` is decided from `process.env.NODE`.
+
 # `react-scripts-ts` [![npm version](https://badge.fury.io/js/react-scripts-ts.svg)](https://badge.fury.io/js/react-scripts-ts) [![Build Status](https://travis-ci.org/wmonk/create-react-app-typescript.svg?branch=master)](https://travis-ci.org/wmonk/create-react-app-typescript)
 
 Create React apps (with Typescript) with no build configuration.
